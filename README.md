@@ -14,4 +14,4 @@ Technologies:
 - REST Countries API
 
 How to run:
-Open index.html in your browser.
+Open index.html in the browser.
