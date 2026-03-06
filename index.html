@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Country Explorer</h1>
+
+<input type="text" id="countryInput" placeholder="Enter country name">
+<button onclick="getCountry()">Search</button>
+
+<p id="error"></p>
+
+<div id="result">
+  <img id="flag" width="200">
+  <h2 id="name"></h2>
+  <p><b>Capital:</b> <span id="capital"></span></p>
+  <p><b>Region:</b> <span id="region"></span></p>
+  <p><b>Population:</b> <span id="population"></span></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
